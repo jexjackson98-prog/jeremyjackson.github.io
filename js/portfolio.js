@@ -27,14 +27,14 @@ const softwareProjects = [
         title: "TabOut",
         description: "A terminal meant to run underneath full screen applications, allowing keyboard inputs to control Spotify without having to \"tab out\". Uses Python.",
         image: "images/taboutimage.PNG",
-        demo: "#",
-        github: "https://github.com/jexjackson98-prog/TabOut/tree/main/TabOut%20-%20PublicCopy"
+        demo: "https://github.com/jexjackson98-prog/TabOut/tree/main/TabOut%20-%20PublicCopy",
+        github: "#"
     },
     {
         title: "Indeed Sweeper",
         description: "Indeed has a lot of spam listings. This is a Google Extension that allows you to block companies you've determined are such.",
         image: "images/indeedsweeperimage.PNG",
-        demo: "#",
-        github: "https://github.com/jexjackson98-prog/IndeedSweeper/tree/main/Indeed%20Sweeper"
+        demo: "https://github.com/jexjackson98-prog/IndeedSweeper/tree/main/Indeed%20Sweeper",
+        github: "#"
     }
 ];
