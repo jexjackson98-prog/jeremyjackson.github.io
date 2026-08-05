@@ -11,7 +11,7 @@ const writingProjects = [
 const softwareProjects = [
     {
         title: "The Ledger",
-        description: "A work-in-progress calculator I'm adding to based off of an Excel Spreadsheet as I complete an accounting program at Bristol Community College.",
+        description: "A work-in-progress calculator I'm adding to based off of an Excel Spreadsheet as I complete an accounting program at Bristol Community College. HTML code.",
         image: "images/TheLedgerImage.PNG",
         demo: "software/The-Ledger-Financial-Calculators.html",
         github: "#"
