@@ -1,9 +1,57 @@
 const writingProjects = [
     {
-        title: "Coming soon!",
-        description: "Writing samples will be added here.",
-        category: "None",
-        link: "#"
+        title: "Should You Play Genshin Impact?",
+        description: "A piece written more casually, with the passion of a personal hobby.",
+        category: "articles",
+        link: "writing/articles/Should_You_Play_Genshin_Impact.pdf"
+    },
+    {
+        title: "How To Paint An AR15",
+        description: "A published, informal guide written on a subject I lack personal experience in with SEO key-term integration.",
+        category: "articles",
+        link: "writing/articles/983FC7BB_1___How_To_Paint_An_AR15__Full_DIY_Guide_With_Ideas___2_.pdf"
+    },
+    {
+        title: "Google's New Android App Requirements",
+        description: "A small blurb notifying and explaining Google Play Store's annually updated requirements.",
+        category: "articles",
+        link: "writing/articles/Google_Will_Require_Android_16_Compatibility_for_New_Play_Store_Submissions_in_2026.pdf"
+    },
+    {
+        title: "Best Minigolf in Brooklyn",
+        description: "Another published, casually-toned guide on a subject I had no prior information on, including SEO key-term integration. Note that there were not eight mini-golf locations available to choose from, the buyer simply asked for such, so I was forced to include a bar which happened to have a small, single hole.",
+        category: "articles",
+        link: "writing/articles/Best_Minigolf_in_Brooklyn__1_.pdf"
+    },
+    {
+        title: "Chapter 7 vs Chapter 13 Bankruptcy",
+        description: "An explanation of the differences between these two types of bankruptcy, written after reading the full definition of each on a .gov source.",
+        category: "essays",
+        link: "writing/essays/Ch7_Ch_13_Bankruptcy.pdf"
+    },
+    {
+        title: "What Affects Interest Rates?",
+        description: "An essay on what economic situations impact a bank's decision to raise or lower loan interest rates.",
+        category: "essays",
+        link: "writing/essays/JJackson_CH_6_Essay__1_.pdf"
+    },
+    {
+        title: "The Difference Between Finance and Accounting",
+        description: "Another essay, written more subjectively than the previous two.",
+        category: "essays",
+        link: "writing/essays/JJackson_CH2_Essay__2_.pdf"
+    },
+    {
+        title: "Plumbing Services",
+        description: "A published work for a New Jersey plumbing company advertising tankless water heaters with SEO key-term integration.",
+        category: "etc",
+        link: "writing/etc/49B72A43_5___Plumbing_Services___Tankless_Water_Heater.pdf"
+    },
+    {
+        title: "AdThrive Requirements [2022]",
+        description: "A published blog article, ultimately promoting AdThrive as a way to promote blogs, with SEO key-term integration.",
+        category: "etc",
+        link: "writing/etc/D76BDFA4_5___AdThrive_requirements__2022___1_.pdf"
     }
 ];
 
