@@ -1,46 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
+<script src="js/portfolio.js"></script>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Writing | Jeremy Jackson</title>
+<script>
+    const container = document.getElementById("writing-container");
+    const buttons = document.querySelectorAll(".filters button");
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    function displayProjects(filter = "All") {
 
-<body>
-
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="writing.html">Writing</a>
-        <a href="software.html">Software Development</a>
-    </nav>
-
-    <main>
-        <section class="portfolio-section">
-
-            <h1>Writing</h1>
-
-            <div class="filters">
-                <button>All</button>
-                <button>Essays</button>
-                <button>Articles</button>
-                <button>Etc</button>
-            </div>
-
-            <div id="writing-container"></div>
-
-        </section>
-    </main>
-
-
-    <script src="js/portfolio.js"></script>
-
-    <script>
-        const container = document.getElementById("writing-container");
+        container.innerHTML = "";
 
         writingProjects.forEach(project => {
+
+            if (
+                filter !== "All" &&
+                !project.tags.includes(filter)
+            ) {
+                return;
+            }
 
             container.innerHTML += `
                 <div class="portfolio-card">
@@ -55,16 +30,22 @@
                         ${project.description}
                     </p>
 
-                    <div class="tags">
-                        ${project.tags.map(tag => `<span>${tag}</span>`).join("")}
-                    </div>
-
                 </div>
             `;
 
         });
-    </script>
+    }
 
-</body>
 
-</html>
+    buttons.forEach(button => {
+
+        button.addEventListener("click", () => {
+            displayProjects(button.textContent);
+        });
+
+    });
+
+
+    displayProjects();
+
+</script>
