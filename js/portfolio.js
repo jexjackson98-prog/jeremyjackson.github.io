@@ -1,58 +1,58 @@
 const writingProjects = [
-{
-title: "Should You Play Genshin Impact?",
-description: "A piece written more casually, with the passion of a personal hobby.",
-tags: ["Articles"],
-link: "writing/articles/Should You Play Genshin Impact.pdf"
-},
-{
-title: "How To Paint An AR15",
-description: "A published, informal guide written on a subject I lack personal experience in with SEO key-term integration.",
-tags: ["Articles"],
-link: "writing/articles/983FC7BB_1___How_To_Paint_An_AR15__Full_DIY_Guide_With_Ideas___2_.pdf"
-},
-{
-title: "Google's New Android App Requirements",
-description: "A small blurb notifying and explaining Google Play Store's annually updated requirements.",
-tags: ["Articles"],
-link: "writing/articles/Google Will Require Android 16 Compatibility for New Play Store Submissions in 2026.pdf"
-},
-{
-title: "Best Minigolf in Brooklyn",
-description: "Another published, casually-toned guide on a subject I had no prior information on, including SEO key-term integration. Note that there were not eight mini-golf locations available to choose from, the buyer simply asked for such, so I was forced to include a bar which happened to have a small, single hole.",
-tags: ["Articles"],
-link: "writing/articles/Best Minigolf in Brooklyn (1).pdf"
-},
-{
-title: "Chapter 7 vs Chapter 13 Bankruptcy",
-description: "An explanation of the differences between these two types of bankruptcy, written after reading the full definition of each on a .gov source.",
-tags: ["Essays"],
-link: "writing/essays/Ch7_Ch_13_Bankruptcy.pdf"
-},
-{
-title: "What Affects Interest Rates?",
-description: "An essay on what economic situations impact a bank's decision to raise or lower loan interest rates.",
-tags: ["Essays"],
-link: "writing/essays/JJackson_CH_6_Essay__1_.pdf"
-},
-{
-title: "The Difference Between Finance and Accounting",
-description: "Another essay, written more subjectively than the previous two.",
-tags: ["Essays"],
-link: "writing/essays/JJackson_CH2_Essay__2_.pdf"
-},
-{
-title: "Plumbing Services",
-description: "A published work for a New Jersey plumbing company advertising tankless water heaters with SEO key-term integration.",
-tags: ["Etc"],
-link: "writing/etc/49B72A43_5___Plumbing_Services___Tankless_Water_Heater.pdf"
-},
-{
-title: "AdThrive Requirements [2022]",
-description: "A published blog article, ultimately promoting AdThrive as a way to promote blogs, with SEO key-term integration.",
-tags: ["Etc"],
-link: "writing/etc/D76BDFA4_5___AdThrive_requirements__2022___1_.pdf"
-}
+    {
+        title: "Should You Play Genshin Impact?",
+        description: "A piece written more casually, with the passion of a personal hobby.",
+        tags: ["Articles"],
+        link: "writing/articles/Should%20You%20Play%20Genshin%20Impact.pdf"
+    },
+    {
+        title: "How To Paint An AR15",
+        description: "A published, informal guide written on a subject I lack personal experience in with SEO key-term integration.",
+        tags: ["Articles"],
+        link: "writing/articles/983FC7BB_1%20_%20How%20To%20Paint%20An%20AR15%20(Full%20DIY%20Guide%20With%20Ideas)%20(2).pdf"
+    },
+    {
+        title: "Google's New Android App Requirements",
+        description: "A small blurb notifying and explaining Google Play Store's annually updated requirements.",
+        tags: ["Articles"],
+        link: "writing/articles/Google%20Will%20Require%20Android%2016%20Compatibility%20for%20New%20Play%20Store%20Submissions%20in%202026.pdf"
+    },
+    {
+        title: "Best Minigolf in Brooklyn",
+        description: "Another published, casually-toned guide on a subject I had no prior information on, including SEO key-term integration. Note that there were not eight mini-golf locations available to choose from, the buyer simply asked for such, so I was forced to include a bar which happened to have a small, single hole.",
+        tags: ["Articles"],
+        link: "writing/articles/Best%20Minigolf%20in%20Brooklyn%20(1).pdf"
+    },
+    {
+        title: "Chapter 7 vs Chapter 13 Bankruptcy",
+        description: "An explanation of the differences between these two types of bankruptcy, written after reading the full definition of each on a .gov source.",
+        tags: ["Essays"],
+        link: "writing/essays/Ch7%20Ch%2013%20Bankruptcy.pdf"
+    },
+    {
+        title: "What Affects Interest Rates?",
+        description: "An essay on what economic situations impact a bank's decision to raise or lower loan interest rates.",
+        tags: ["Essays"],
+        link: "writing/essays/JJackson%20CH%206%20Essay%20(1).pdf"
+    },
+    {
+        title: "The Difference Between Finance and Accounting",
+        description: "Another essay, written more subjectively than the previous two.",
+        tags: ["Essays"],
+        link: "writing/essays/JJackson%20CH2%20Essay%20(2).pdf"
+    },
+    {
+        title: "Plumbing Services",
+        description: "A published work for a New Jersey plumbing company advertising tankless water heaters with SEO key-term integration.",
+        tags: ["Etc"],
+        link: "writing/etc/49B72A43_5%20_%20Plumbing%20Services%20_%20Tankless%20Water%20Heater.pdf"
+    },
+    {
+        title: "AdThrive Requirements [2022]",
+        description: "A published blog article, ultimately promoting AdThrive as a way to promote blogs, with SEO key-term integration.",
+        tags: ["Etc"],
+        link: "writing/etc/D76BDFA4_5%20_%20AdThrive%20requirements%20%5B2022%5D%20(1).pdf"
+    }
 ];
 
 
