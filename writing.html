@@ -1,123 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
+<link rel="stylesheet" href="css/style.css">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Writing | Jeremy Jackson</title>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="writing.html">Writing</a>
+    <a href="software.html">Software Development</a>
+</nav>
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
+<main>
+    <section class="portfolio-section">
 
-<body>
+        <h1>Writing</h1>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="writing.html">Writing</a>
-        <a href="software.html">Software Development</a>
-    </nav>
+        <div class="filters">
+            <button>All</button>
+            <button>Essays</button>
+            <button>Articles</button>
+            <button>Etc</button>
+        </div>
+
+        <div id="writing-container"></div>
+
+    </section>
+</main>
 
 
-    <main>
+<script src="js/portfolio.js"></script>
 
-        <section class="portfolio-section">
+<script>
+    const container = document.getElementById("writing-container");
 
-            <h1>Writing</h1>
+    writingProjects.forEach(project => {
 
+        container.innerHTML += `
+            <div class="portfolio-card">
 
-            <div class="filters">
+                <h2>
+                    <a href="${project.link}">
+                        ${project.title}
+                    </a>
+                </h2>
 
-                <button data-filter="All">All</button>
-                <button data-filter="Essays">Essays</button>
-                <button data-filter="Articles">Articles</button>
-                <button data-filter="Etc">Etc</button>
+                <p>
+                    ${project.description}
+                </p>
+
+                <div class="tags">
+                    ${project.tags.map(tag => `<span>${tag}</span>`).join("")}
+                </div>
 
             </div>
+        `;
 
-
-            <div id="writing-container"></div>
-
-
-        </section>
-
-    </main>
-
-
-    <script src="js/portfolio.js"></script>
-
-
-    <script>
-
-        const container = document.getElementById("writing-container");
-        const buttons = document.querySelectorAll(".filters button");
-
-
-        function displayProjects(filter = "All") {
-
-            container.innerHTML = "";
-
-
-            writingProjects.forEach(project => {
-
-
-                if (
-                    filter !== "All" &&
-                    !project.tags.includes(filter)
-                ) {
-                    return;
-                }
-
-
-                container.innerHTML += `
-
-                    <div class="portfolio-card">
-
-
-                        <h2>
-
-                            <a href="${project.link}">
-
-                                ${project.title}
-
-                            </a>
-
-                        </h2>
-
-
-                        <p>
-
-                            ${project.description}
-
-                        </p>
-
-
-                    </div>
-
-                `;
-
-
-            });
-
-        }
-
-
-        buttons.forEach(button => {
-
-            button.addEventListener("click", () => {
-
-                displayProjects(button.dataset.filter);
-
-            });
-
-        });
-
-
-        displayProjects();
-
-
-    </script>
-
-
-</body>
-
-</html>
+    });
+</script>
